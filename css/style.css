@@ -142,3 +142,30 @@ table {
     background-color: gold;
     color: #001;
 }
+
+@media (max-width: 600px) {
+    .menu {
+        position: fixed;
+        width: 50px;
+        /* height: 202vh; */
+    } .content{
+        margin-left: 100px;
+    } .menu:hover {
+        width: 50px;
+    } ul li a i {
+        font-size: 23px;
+    }
+}
+@media (max-width: 810px) {
+    .menu {
+        position: fixed;
+        width: 50px;
+        height: 100vh;
+    } .content{
+        margin-left: 100px;
+    } .menu:hover {
+        width: 50px;
+    } ul li a i {
+        font-size: 25px;
+    }
+}
